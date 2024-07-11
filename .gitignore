@@ -1,0 +1,47 @@
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore environment
+.env
+.venv/
+.vscode/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE and editor specific files
+.idea/
+*.iml
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.tmp
+
+# Ignore package files
+*.gz
+*.whl
+*.egg-info/
+
+# Ignore compiled files
+*.class
+*.war
+*.jar
+
+# Ignore compiled Java binaries
+target/
+
+# Ignore Node modules
+node_modules/
+
+# Ignore macOS metadata
+.metadata/
+.DS_Store
