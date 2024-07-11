@@ -5,27 +5,30 @@ This project demonstrates a complete data science workflow using the Weather dat
 ## Project Structure
 
 ```
-weather-classification/
+refonte-assignment1/
+├── .gitignore
+├── LICENSE
 ├── README.md
-├── data/
-│   ├── raw/
-│   │   └── Weather.csv
-│   └── processed/
-│       └── Weather_processed.csv
-├── notebooks/
-│   ├── 01_data_cleaning.ipynb
-│   ├── 02_EDA.ipynb
-│   ├── 03_model_building.ipynb
-│   └── 04_visualization.ipynb
-├── scripts/
-│   ├── 01_data_cleaning.py
-│   ├── 02_EDA.py
-│   ├── 03_model_building.py
-│   └── 04_visualization.py
-├── results/
-│   ├── results_summary.md
-│   └── figures/
-└── LICENSE
+├── requirements.txt
+└── weather-classification/
+    ├── data/
+    │   ├── processed/
+    │   │   └── Weather_processed.csv
+    │   └── raw/
+    │       └── Weather.csv
+    ├── notebooks/
+    │   ├── 01_data_cleaning.ipynb
+    │   ├── 02_EDA.ipynb
+    │   ├── 03_model_building.ipynb
+    │   └── 04_visualization.ipynb
+    ├── results/
+    │   ├── figures/
+    │   └── results_summary.md
+    └── scripts/
+        ├── 01_data_cleaning.py
+        ├── 02_EDA.py
+        ├── 03_model_building.py
+        └── 04_visualization.py
 ```
 
 ## How to Activate Virtual Environments
